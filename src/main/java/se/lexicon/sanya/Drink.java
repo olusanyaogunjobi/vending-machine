@@ -1,4 +1,7 @@
 package se.lexicon.sanya;
 
-public class Drink {
+public class Drink extends Product{
+    public Drink(String name, String description, int price) {
+        super(name, description, price);
+    }
 }
