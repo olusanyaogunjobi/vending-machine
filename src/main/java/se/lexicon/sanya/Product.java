@@ -12,7 +12,14 @@ public abstract class Product {
         this.description = description;
         this.price = price;
     }
+   public String examine(){
 
+        return name + " costs "+ price + " SEK";
+   };
+    public String use(){
+
+        return description;
+    };
 
     public String getName() {
         return name;
